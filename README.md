@@ -13,5 +13,9 @@ A calculator written in the C programming language, that prompts the user for th
 - Cosine
 - Tangent
 - Square root
+- Ceil
+- Floor
+- Absolute value
+- Natural exponent (e^x)
 
 Clone it to your local machine and start contributing.
