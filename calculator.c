@@ -63,12 +63,19 @@ int main() {
             break;
 
         case 2:
+            break;
         case 3:
+            break;
         case 4:
+            break;
         case 5:
+            break;
 
-        // 6. Sine
         case 6:
+            break;
+            
+        // 7. Sine
+        case 7:
             printf("\nEnter the angle in degrees: ");
             int angle;
             scanf("%d", &angle);
@@ -78,9 +85,6 @@ int main() {
             double answer = sin(radians);
 
             printf("The sine value is %f", answer);
-            break;
-
-        case 7:
             break;
         case 8:
             break;
