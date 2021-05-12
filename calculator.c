@@ -38,13 +38,16 @@ int main() {
         "2. Subtraction\n"
         "3. Multiplication\n"
         "4. Division\n"
-        "5. Exponentiation\n"
-        "6. Sine\n"
-        "7. Cosine\n"
-        "8. Tangent\n"
-        "9. Floor\n"
-        "10. Ceiling\n"
-        "11. Absolute value\n\n"
+        "5. Percentage\n"
+        "6. Exponentiation\n"
+        "7. Sine\n"
+        "8. Cosine\n"
+        "9. Tangent\n"
+        "10. Square Root\n"
+        "11. Ceiling\n"
+        "12. Floor\n"
+        "13. Absolute value\n\n"
+        "14. Natural Exponent\n"
         "Enter your choice: ");
 
     scanf("%d", &choice);
