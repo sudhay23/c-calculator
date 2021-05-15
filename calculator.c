@@ -8,13 +8,36 @@
 
 // Calculator function to be written here
 // Functionalities required:
-// 1. Add
+// 1. Addition
+void calcAddition() {
+    printf("\nEnter two numbers: \n");
+    int a, b;
+    scanf("%d%d", &a, &b);
+    int result = a + b;
+    printf("The sum is %d\n", result);
+} 
+
+// Fill the rest of the functionality here!
 // 2. Subtract
 // 3. Multiply
 // 4. Divide
 // 5. Percentage
 // 6. Exponentiation
+
 // 7. Sine (sin)
+void calcSine() {
+    printf("\nEnter the angle in degrees: ");
+    int angle;
+    scanf("%d", &angle);
+
+    // Convert degrees to radians
+    double radians = angle / 180.0 * 3.14;
+    double answer = sin(radians);
+
+    printf("The sine value is %f", answer);
+}
+
+// Fill the rest of the functionality here!
 // 8. Cosine (cos)
 // 9. Tangent (tan)
 // 10. Square root
@@ -22,11 +45,6 @@
 // 12. Floor
 // 13. Absolute value
 // 14. Natural exponent (e^x)
-
-// Sample code for 1. Add
-double add(double a, double b) {
-    return a + b;
-}
 
 // Insert your code below
 
@@ -55,11 +73,7 @@ int main() {
     switch (choice) {
         // 1. Addition
         case 1:
-            printf("\nEnter two numbers: \n");
-            int a, b;
-            scanf("%d%d", &a, &b);
-            int result = a + b;
-            printf("The sum is %d\n", result);
+            calcAddition();
             break;
 
         case 2:
@@ -76,16 +90,9 @@ int main() {
             
         // 7. Sine
         case 7:
-            printf("\nEnter the angle in degrees: ");
-            int angle;
-            scanf("%d", &angle);
-
-            // Convert degrees to radians
-            double radians = angle / 180.0 * 3.14;
-            double answer = sin(radians);
-
-            printf("The sine value is %f", answer);
+            calcSine();
             break;
+            
         case 8:
             break;
         case 9:
